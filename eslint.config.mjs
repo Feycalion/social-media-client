@@ -8,7 +8,7 @@ export default [
     ignores: [
       "src/js/api/auth/login.test.js",
       "src/js/api/auth/logout.test.js",
-      "cypress/e2e/login.cy.js",
+      "cypress/e2e/*.cy.js",
     ],
   },
 ];
